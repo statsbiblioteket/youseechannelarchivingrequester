@@ -1,6 +1,7 @@
 package dk.statsbiblioteket.mediaplatform.ingest.channelarchivingrequester.web;
 
-import dk.statsbiblioteket.mediaplatform.ingest.model.ChannelArchiveRequest;
+
+import dk.statsbiblioteket.digitv.persistence.channelarchiverequest.ChannelArchiveRequest;
 import dk.statsbiblioteket.mediaplatform.ingest.model.WeekdayCoverage;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.ChannelArchiveRequestService;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.ChannelArchiveRequestServiceIF;

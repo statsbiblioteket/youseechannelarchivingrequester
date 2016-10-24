@@ -1,7 +1,10 @@
 package dk.statsbiblioteket.mediaplatform.ingest.model.persistence;
 
+import dk.statsbiblioteket.digitv.persistence.ChannelArchivingRequesterHibernateUtil;
+import dk.statsbiblioteket.digitv.persistence.HibernateUtilIF;
+import dk.statsbiblioteket.digitv.persistence.youseechannelmapping.YouSeeChannelMapping;
+import dk.statsbiblioteket.digitv.persistence.youseechannelmapping.YouSeeChannelMappingDAO;
 import dk.statsbiblioteket.mediaplatform.ingest.model.PersistenceTestCase;
-import dk.statsbiblioteket.mediaplatform.ingest.model.YouSeeChannelMapping;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.YouSeeChannelMappingService;
 
 import java.util.Date;

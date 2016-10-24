@@ -1,6 +1,8 @@
 package dk.statsbiblioteket.mediaplatform.ingest.model.service;
 
-import dk.statsbiblioteket.mediaplatform.ingest.model.ChannelArchiveRequest;
+
+
+import dk.statsbiblioteket.digitv.persistence.channelarchiverequest.ChannelArchiveRequest;
 
 import java.util.Date;
 import java.util.List;

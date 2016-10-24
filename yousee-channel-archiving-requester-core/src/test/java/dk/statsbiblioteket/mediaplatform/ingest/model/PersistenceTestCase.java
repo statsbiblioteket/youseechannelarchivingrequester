@@ -7,7 +7,9 @@
  */
 package dk.statsbiblioteket.mediaplatform.ingest.model;
 
-import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.ChannelArchivingRequesterHibernateUtil;
+import dk.statsbiblioteket.digitv.persistence.ChannelArchivingRequesterHibernateUtil;
+import dk.statsbiblioteket.digitv.persistence.channelarchiverequest.ChannelArchiveRequest;
+import dk.statsbiblioteket.digitv.persistence.youseechannelmapping.YouSeeChannelMapping;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.ChannelArchiveRequestService;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.ServiceException;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.YouSeeChannelMappingService;

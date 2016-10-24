@@ -1,11 +1,10 @@
 package dk.statsbiblioteket.mediaplatform.ingest.model.service.validator;
 
-import dk.statsbiblioteket.mediaplatform.ingest.model.YouSeeChannelMapping;
-import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.ChannelArchivingRequesterHibernateUtil;
+import dk.statsbiblioteket.digitv.persistence.ChannelArchivingRequesterHibernateUtil;
+import dk.statsbiblioteket.digitv.persistence.youseechannelmapping.YouSeeChannelMapping;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
-import java.nio.channels.Channel;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

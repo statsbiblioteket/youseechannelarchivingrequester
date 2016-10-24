@@ -7,10 +7,10 @@
  */
 package dk.statsbiblioteket.mediaplatform.ingest.model.service;
 
-import dk.statsbiblioteket.mediaplatform.ingest.model.ChannelArchiveRequest;
+import dk.statsbiblioteket.digitv.persistence.channelarchiverequest.ChannelArchiveRequest;
+import dk.statsbiblioteket.digitv.persistence.youseechannelmapping.YouSeeChannelMapping;
 import dk.statsbiblioteket.mediaplatform.ingest.model.PersistenceTestCase;
 import dk.statsbiblioteket.mediaplatform.ingest.model.WeekdayCoverage;
-import dk.statsbiblioteket.mediaplatform.ingest.model.YouSeeChannelMapping;
 
 import java.util.GregorianCalendar;
 

@@ -1,10 +1,10 @@
 package dk.statsbiblioteket.mediaplatform.ingest.model.service;
 
-import dk.statsbiblioteket.mediaplatform.ingest.model.ChannelArchiveRequest;
-import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.ChannelArchiveRequestDAO;
-import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.ChannelArchiveRequestDAOIF;
-import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.ChannelArchivingRequesterHibernateUtil;
-import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.NotInitialiasedException;
+import dk.statsbiblioteket.digitv.persistence.ChannelArchivingRequesterHibernateUtil;
+import dk.statsbiblioteket.digitv.persistence.NotInitialiasedException;
+import dk.statsbiblioteket.digitv.persistence.channelarchiverequest.ChannelArchiveRequest;
+import dk.statsbiblioteket.digitv.persistence.channelarchiverequest.ChannelArchiveRequestDAO;
+import dk.statsbiblioteket.digitv.persistence.channelarchiverequest.ChannelArchiveRequestDAOIF;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.validator.ChannelArchivingRequesterValidator;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.validator.ValidatorIF;
 import org.apache.log4j.Logger;

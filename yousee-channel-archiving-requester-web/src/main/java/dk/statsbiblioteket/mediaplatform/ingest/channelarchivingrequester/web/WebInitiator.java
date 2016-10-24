@@ -1,7 +1,7 @@
 package dk.statsbiblioteket.mediaplatform.ingest.channelarchivingrequester.web;
 
+import dk.statsbiblioteket.digitv.persistence.HibernateUtilIF;
 import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.ChannelArchivingRequesterHibernateUtil;
-import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.HibernateUtilIF;
 import org.apache.log4j.Logger;
 
 import javax.servlet.ServletContextEvent;

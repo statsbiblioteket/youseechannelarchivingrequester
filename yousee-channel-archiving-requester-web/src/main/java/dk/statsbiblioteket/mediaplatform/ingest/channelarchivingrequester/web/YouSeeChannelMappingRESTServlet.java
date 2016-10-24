@@ -1,6 +1,7 @@
 package dk.statsbiblioteket.mediaplatform.ingest.channelarchivingrequester.web;
 
-import dk.statsbiblioteket.mediaplatform.ingest.model.YouSeeChannelMapping;
+
+import dk.statsbiblioteket.digitv.persistence.youseechannelmapping.YouSeeChannelMapping;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.ServiceException;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.YouSeeChannelMappingService;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.YouSeeChannelMappingServiceIF;

@@ -7,10 +7,11 @@
  */
 package dk.statsbiblioteket.mediaplatform.ingest.model;
 
-import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.ChannelArchivingRequesterHibernateUtil;
-import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.HibernateUtilIF;
-import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.NotInitialiasedException;
-import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.YouSeeChannelMappingDAO;
+import dk.statsbiblioteket.digitv.persistence.ChannelArchivingRequesterHibernateUtil;
+import dk.statsbiblioteket.digitv.persistence.HibernateUtilIF;
+import dk.statsbiblioteket.digitv.persistence.NotInitialiasedException;
+import dk.statsbiblioteket.digitv.persistence.youseechannelmapping.YouSeeChannelMapping;
+import dk.statsbiblioteket.digitv.persistence.youseechannelmapping.YouSeeChannelMappingDAO;
 import junit.framework.TestCase;
 import org.hibernate.Session;
 

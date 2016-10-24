@@ -1,6 +1,7 @@
 package dk.statsbiblioteket.mediaplatform.ingest.model.service;
 
-import dk.statsbiblioteket.mediaplatform.ingest.model.YouSeeChannelMapping;
+
+import dk.statsbiblioteket.digitv.persistence.youseechannelmapping.YouSeeChannelMapping;
 
 import java.util.Date;
 import java.util.List;

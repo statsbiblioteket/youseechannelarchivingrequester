@@ -1,7 +1,10 @@
 package dk.statsbiblioteket.mediaplatform.ingest.model.persistence;
 
+import dk.statsbiblioteket.digitv.persistence.ChannelArchivingRequesterHibernateUtil;
+import dk.statsbiblioteket.digitv.persistence.NotInitialiasedException;
+import dk.statsbiblioteket.digitv.persistence.channelarchiverequest.ChannelArchiveRequest;
+import dk.statsbiblioteket.digitv.persistence.channelarchiverequest.ChannelArchiveRequestDAO;
 import dk.statsbiblioteket.mediaplatform.ingest.model.WeekdayCoverage;
-import dk.statsbiblioteket.mediaplatform.ingest.model.ChannelArchiveRequest;
 import junit.framework.TestCase;
 
 //import java.io.File;

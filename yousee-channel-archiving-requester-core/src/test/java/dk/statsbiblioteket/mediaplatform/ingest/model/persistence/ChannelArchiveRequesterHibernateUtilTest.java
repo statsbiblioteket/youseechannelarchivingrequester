@@ -1,5 +1,7 @@
 package dk.statsbiblioteket.mediaplatform.ingest.model.persistence;
 
+import dk.statsbiblioteket.digitv.persistence.ChannelArchivingRequesterHibernateUtil;
+import dk.statsbiblioteket.digitv.persistence.HibernateUtilIF;
 import junit.framework.TestCase;
 
 import java.io.File;

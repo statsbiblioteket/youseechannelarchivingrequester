@@ -1,9 +1,11 @@
 package dk.statsbiblioteket.mediaplatform.ingest.model.persistence;
 
 
-import dk.statsbiblioteket.mediaplatform.ingest.model.ChannelArchiveRequest;
-import dk.statsbiblioteket.mediaplatform.ingest.model.YouSeeChannelMapping;
+import dk.statsbiblioteket.digitv.persistence.HibernateUtilIF;
+import dk.statsbiblioteket.digitv.persistence.NotInitialiasedException;
 //import org.apache.log4j.Logger;
+import dk.statsbiblioteket.digitv.persistence.channelarchiverequest.ChannelArchiveRequest;
+import dk.statsbiblioteket.digitv.persistence.youseechannelmapping.YouSeeChannelMapping;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
