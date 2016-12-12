@@ -1,8 +1,9 @@
 package dk.statsbiblioteket.mediaplatform.ingest.channelarchivingrequester.web;
 
+import dk.statsbiblioteket.digitv.persistence.ChannelArchivingRequesterHibernateUtil;
 import dk.statsbiblioteket.digitv.persistence.HibernateUtilIF;
-import dk.statsbiblioteket.mediaplatform.ingest.model.persistence.ChannelArchivingRequesterHibernateUtil;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
@@ -13,7 +14,7 @@ import java.io.File;
  */
 public class WebInitiator implements ServletContextListener {
 
-    private static Logger log = org.apache.log4j.Logger.getLogger(WebInitiator.class);
+    private static Logger log = LoggerFactory.getLogger(WebInitiator.class);
 
     /**
      * Place any initialisations or configuration sanity-checks here.

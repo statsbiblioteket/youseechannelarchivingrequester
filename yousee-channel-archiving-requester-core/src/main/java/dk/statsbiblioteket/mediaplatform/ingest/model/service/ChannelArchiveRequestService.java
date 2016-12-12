@@ -7,7 +7,8 @@ import dk.statsbiblioteket.digitv.persistence.channelarchiverequest.ChannelArchi
 import dk.statsbiblioteket.digitv.persistence.channelarchiverequest.ChannelArchiveRequestDAOIF;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.validator.ChannelArchivingRequesterValidator;
 import dk.statsbiblioteket.mediaplatform.ingest.model.service.validator.ValidatorIF;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Date;
 import java.util.List;
@@ -17,7 +18,7 @@ import java.util.List;
  */
 public class ChannelArchiveRequestService implements ChannelArchiveRequestServiceIF {
 
-    Logger log = Logger.getLogger(ChannelArchiveRequestService.class);
+    Logger log = LoggerFactory.getLogger(ChannelArchiveRequestService.class);
 
     @Override
     public void insert(ChannelArchiveRequest request) throws ServiceException {
